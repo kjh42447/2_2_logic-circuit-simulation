@@ -1,0 +1,85 @@
+$date
+	Fri Sep 11 22:05:07 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module tb_Fullsubtracter_stru $end
+$scope module tb $end
+$var wire 1 ! b $end
+$var wire 1 " bin $end
+$var wire 1 # x $end
+$var wire 1 $ y $end
+$var wire 1 % d0 $end
+$var wire 1 & d $end
+$var wire 1 ' b1 $end
+$var wire 1 ( b0 $end
+$scope module h0 $end
+$var wire 1 ( b $end
+$var wire 1 % d $end
+$var wire 1 # x $end
+$var wire 1 $ y $end
+$upscope $end
+$scope module h1 $end
+$var wire 1 ' b $end
+$var wire 1 & d $end
+$var wire 1 % x $end
+$var wire 1 " y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1&
+1!
+1%
+1(
+1$
+#20000
+0!
+0(
+0$
+1#
+#30000
+0&
+0%
+1$
+#40000
+1!
+1&
+1'
+1"
+0$
+0#
+#50000
+0'
+0&
+1%
+1(
+1$
+#60000
+0!
+0(
+0$
+1#
+#70000
+1!
+1'
+1&
+0%
+1$
+#80000

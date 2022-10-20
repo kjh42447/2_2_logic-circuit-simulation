@@ -1,0 +1,98 @@
+$date
+	Sat Nov 14 21:47:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module tb_PSShiftRegister $end
+$scope module tb $end
+$var wire 1 ! clk $end
+$var wire 8 " din [7:0] $end
+$var wire 1 # load $end
+$var wire 1 $ rst $end
+$var wire 1 % sin $end
+$var wire 1 & sout $end
+$var reg 8 ' qout [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+x&
+0%
+1$
+0#
+b0 "
+0!
+$end
+#5000
+bx0 '
+1!
+#10000
+0&
+b0 '
+0!
+0$
+#12500
+1#
+1$
+b10111011 "
+#15000
+1&
+b10111011 '
+1!
+#20000
+0!
+#22500
+0#
+b0 "
+#25000
+0&
+b1110110 '
+1!
+#30000
+0!
+#35000
+1&
+b11101100 '
+1!
+#40000
+0!
+#45000
+b11011000 '
+1!
+#50000
+0!
+#55000
+b10110000 '
+1!
+#60000
+0!
+#65000
+0&
+b1100000 '
+1!
+#70000
+0!
+#75000
+1&
+b11000000 '
+1!
+#80000
+0!
+#85000
+b10000000 '
+1!
+#90000
+0!
+#95000
+0&
+b0 '
+1!
+#100000
+0!
+#102500

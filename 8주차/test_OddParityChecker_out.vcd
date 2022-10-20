@@ -1,0 +1,39 @@
+$date
+	Wed Oct 21 23:50:05 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module tb_OddParityChecker $end
+$scope module tb $end
+$var wire 9 ! data_in [8:0] $end
+$var reg 1 " error_out $end
+$scope task paritycheck $end
+$var reg 9 # data [8:0] $end
+$var reg 1 $ error $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+b0 #
+1"
+b0 !
+$end
+#1000
+b101000011 #
+b101000011 !
+#2000
+b110100010 #
+b110100010 !
+#3000
+0"
+0$
+b111111111 #
+b111111111 !
+#4000
